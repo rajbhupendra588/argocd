@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocd-app
-          image: bhsi0621/argocd-app:1.0
+          image: rajbhupendra588/argocd-app:latest
           ports:
             - containerPort: 8080
