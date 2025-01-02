@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocd-app
-          image: argocd-app:latest
+          image: localhost:5000/argocd-app:latest
           ports:
             - containerPort: 8080
